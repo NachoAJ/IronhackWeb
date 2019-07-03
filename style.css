@@ -1,0 +1,160 @@
+/* GENERAL STYLING */
+
+body {
+  font-family: sans-serif;
+}
+
+section {
+  padding: 70px;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+h1 {
+  color: white;
+  font-size: 5em;
+  line-height: 1.2;
+}
+
+h2 {
+  color: #2d354c;
+  font-size: 2em;
+  margin: 30px;
+}
+
+h3 {
+  color: #2d354c;
+}
+
+.shadow {
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, .1);
+}
+
+.flexbox {
+  display: flex;
+}
+
+.flexbox.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox.space-around {
+  justify-content: space-around;
+}
+
+
+
+/* NAV */
+
+.menu {
+  padding: 20px;
+  color: white;
+}
+
+.menu img {
+  width: 50px;
+}
+
+.menu li {
+  margin: 0 25px;
+}
+
+/* HERO */
+
+.background {
+  background: white url(img/background.svg);
+  background-position: bottom;
+  background-size: cover;
+  font-weight: 400;
+}
+
+.hero {
+  text-align: center;
+  padding: 35px;
+}
+
+.hero span {
+  color: #32c3ff;
+}
+
+.hero .button {
+  border: 0;
+  background-color: #32c3ff;
+  color:white;
+  padding: 15px 40px;
+}
+
+/* HERO FOOTER */
+
+.logos {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin: 25px
+}
+
+.logos img {
+  height: 50px;
+  filter: grayscale(1);
+}
+
+/* STATISTICS */
+
+.statistics {
+  color: #2d354c;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.statistics span {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.statistics img {
+  width: 100%;
+}
+
+.statistics .orange {
+  color: #f49102;
+  text-align: left;
+}
+
+.statistics i {
+  font-size: 3em;
+}
+
+/* WHY HERE */
+
+.why-here h2 {
+  text-align: center;
+}
+
+.why-here i {
+  font-size: 3em;
+}
+
+.why-here p {
+  color: #8c919d;
+}
+
+
+/* COMPONENTES */
+
+.button {
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 4px;
+}
